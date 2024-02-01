@@ -1,0 +1,26 @@
+{
+  "name": "jvl-card",
+  "version": "1.0.0",
+  "description": "mern stack practice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js",
+    "dev": "cross-env NODE_ENV=development nodemon backend/server.js",
+    "prod": "cross-env NODE_ENV=production nodemon backend/server.js",
+    "seeder": "node backend/utils/seeder.js"
+  },
+  "author": "aski",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0",
+    "nodemon": "^3.0.3",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
